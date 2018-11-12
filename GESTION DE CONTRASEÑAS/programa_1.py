@@ -3,7 +3,9 @@ password = "malboro"
 
 intento = input ("ingrese contraseña: ")
 
-if (intento == password):
-    print ("Welcome")
-else:
+while (intento != password):
     print ("contraseña incorrecta")
+    intento = input ("ingrese contraseña: ")
+
+    
+print ("Welcome")
